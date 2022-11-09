@@ -1,0 +1,27 @@
+{
+  "name": "grpc-server-core",
+  "version": "1.0.0",
+  "description": "grpc server core",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohmanahmad/grpc-server-core.git"
+  },
+  "keywords": [
+    "grpc"
+  ],
+  "author": "rohmanahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohmanahmad/grpc-server-core/issues"
+  },
+  "homepage": "https://github.com/rohmanahmad/grpc-server-core#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.7.3",
+    "@grpc/proto-loader": "^0.7.3",
+    "dotenv": "^16.0.3"
+  }
+}
